@@ -56,7 +56,7 @@ class Item(db.Model):
     description: Mapped[str] = mapped_column(db.String(length=1024), nullable=False, unique=True)
     owner = mapped_column(db.Integer, db.ForeignKey("user.uid"))
 
-    def __repr__(self):
+    def __repr__(self): #string representation
         return f'Item {self.name}'
     
     def ownership(self, user):

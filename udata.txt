@@ -1,0 +1,1 @@
+user=User(username='Aadi',contact='9911922648',email='12211008a@gmail.com',password='1286',location='Noida')
